@@ -51,3 +51,38 @@ footer{
 	padding: 10px 20px;
 	margin-top: 10px;
 }
+/* Your existing CSS */
+
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 600px) {
+  /* Styles for small screens (phones) */
+  header {
+    height: auto; /* Adjust header height for smaller screens */
+  }
+  nav ul {
+    flex-direction: column; /* Make navigation vertical */
+  }
+  nav li {
+    display: block; /* Make navigation items block-level */
+    margin: 10px 0;
+  }
+  #welcome, .welcome2 {
+    font-size: 20px; /* Adjust font sizes for smaller screens */
+    margin: 20px;
+  }
+  img {
+    width: 30%; /* Adjust image size for smaller screens */
+    height: auto;
+  }
+  /* ... other adjustments as needed */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  /* Styles for medium screens (tablets) */
+  /* ... */
+}
+
+@media only screen and (min-width: 901px) {
+  /* Styles for large screens (desktops) */
+  /* Your existing styles for large screens */
+}
