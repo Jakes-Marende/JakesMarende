@@ -79,7 +79,9 @@ footer{
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
   /* Styles for medium screens (tablets) */
-  /* ... */
+  header {
+    height: 300px;
+  }
 }
 
 @media only screen and (min-width: 901px) {
